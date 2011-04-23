@@ -12,6 +12,7 @@ Source:     http://www.cpan.org/modules/by-module/Config/%{upstream_name}-%{upst
 BuildRequires: perl(Module::Build)
 BuildRequires: perl(Config::Model)
 BuildRequires: perl(Curses::UI)
+BuildRequires: perl(namespace::autoclean)
 BuildArch: noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}
 
