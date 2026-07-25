@@ -1,14 +1,14 @@
 %define upstream_name       Config-Model-CursesUI
-%define upstream_version    1.104
+%define upstream_version    1.107
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	1
 Summary:	Curses interface for Config::Model
 License:	GPL or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source:		http://www.cpan.org/modules/by-module/Config/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/dist/Config-Model-CursesUI
+Source:		https://cpan.metacpan.org/authors/id/D/DD/DDUMONT/Config-Model-CursesUI-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Module::Build)
